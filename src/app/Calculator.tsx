@@ -103,7 +103,7 @@ const TH = {
 // ─── i18n ────────────────────────────────────────────────────
 const L = {
   ro: {
-    title: "Calculator Salariu", legUpd: "LEGISLAȚIE UPDATE", regLbl: "REGIM FISCAL", brand: "Fiscal Architect", brandS: "Premium Romanian Ledger",
+    title: "Calculator Salariu", legUpd: "LEGISLAȚIE UPDATE", regLbl: "REGIM FISCAL", brand: "Calculator Salariu", brandS: "Romania",
     nav: { calc:"Calculator", hist:"Istoric", leg:"Legislație", set:"Setări" },
     input: "INTRODU SUMA", modes: { n2b:"Net → Brut", b2n:"Brut → Net", cost:"Cost Angajator" },
     cards: { net:"SALARIU NET", brut:"SALARIU BRUT", cost:"COST TOTAL" },
@@ -114,7 +114,7 @@ const L = {
     tichete: "Tichete de masă", ticNr: "Număr tichete/lună", ticVal: "Valoare tichet (RON)",
     showEur: "Afișare EUR", recalc: "Recalculează",
     info: (p, l, m) => `Calculat conform pragului de ${p} RON (${l}). Salariu minim brut: ${m} RON.`,
-    ledger: "Tax Ledger", salBrut: "Salariu Brut", deduceri: "Deducere Personală", bazaImp: "BAZĂ IMPOZABILĂ",
+    ledger: "Taxe", salBrut: "Salariu Brut", deduceri: "Deducere Personală", bazaImp: "BAZĂ IMPOZABILĂ",
     impozit: "Impozit pe venit", impTich: "Impozit tichete", contrA: "CONTRIBUȚII ANGAJATOR",
     totalC: "TOTAL COST COMPANIE", totalCD: "Suma totală cheltuită de angajator",
     netTich: "NET + TICHETE", netTichD: "Venit efectiv lunar",
@@ -133,7 +133,7 @@ const L = {
     ],
   },
   en: {
-    title: "Salary Calculator", legUpd: "LEGISLATION UPDATE", regLbl: "TAX REGIME", brand: "Fiscal Architect", brandS: "Premium Romanian Ledger",
+    title: "Salary Calculator", legUpd: "LEGISLATION UPDATE", regLbl: "TAX REGIME", brand: "Calculator Salariu", brandS: "Romania",
     nav: { calc:"Calculator", hist:"History", leg:"Legislation", set:"Settings" },
     input: "ENTER AMOUNT", modes: { n2b:"Net → Gross", b2n:"Gross → Net", cost:"Employer Cost" },
     cards: { net:"NET SALARY", brut:"GROSS SALARY", cost:"TOTAL COST" },
@@ -144,7 +144,7 @@ const L = {
     tichete: "Meal vouchers", ticNr: "Vouchers/month", ticVal: "Voucher value (RON)",
     showEur: "Show EUR", recalc: "Recalculate",
     info: (p, l, m) => `Calculated per ${p} RON threshold (${l}). Minimum gross salary: ${m} RON.`,
-    ledger: "Tax Ledger", salBrut: "Gross Salary", deduceri: "Personal Deduction", bazaImp: "TAXABLE BASE",
+    ledger: "Taxes", salBrut: "Gross Salary", deduceri: "Personal Deduction", bazaImp: "TAXABLE BASE",
     impozit: "Income Tax", impTich: "Voucher tax", contrA: "EMPLOYER CONTRIBUTIONS",
     totalC: "TOTAL COMPANY COST", totalCD: "Total amount spent by employer",
     netTich: "NET + VOUCHERS", netTichD: "Effective monthly income",
@@ -163,7 +163,7 @@ const L = {
     ],
   },
   fr: {
-    title: "Calculateur de Salaire", legUpd: "LÉGISLATION À JOUR", regLbl: "RÉGIME FISCAL", brand: "Fiscal Architect", brandS: "Premium Romanian Ledger",
+    title: "Calculateur de Salaire", legUpd: "LÉGISLATION À JOUR", regLbl: "RÉGIME FISCAL", brand: "Calculator Salariu", brandS: "Romania",
     nav: { calc:"Calculateur", hist:"Historique", leg:"Législation", set:"Paramètres" },
     input: "ENTREZ LE MONTANT", modes: { n2b:"Net → Brut", b2n:"Brut → Net", cost:"Coût Employeur" },
     cards: { net:"SALAIRE NET", brut:"SALAIRE BRUT", cost:"COÛT TOTAL" },
@@ -174,7 +174,7 @@ const L = {
     tichete: "Tickets repas", ticNr: "Tickets/mois", ticVal: "Valeur ticket (RON)",
     showEur: "Afficher EUR", recalc: "Recalculer",
     info: (p, l, m) => `Calculé selon le seuil de ${p} RON (${l}). Salaire brut minimum: ${m} RON.`,
-    ledger: "Tax Ledger", salBrut: "Salaire Brut", deduceri: "Déduction Personnelle", bazaImp: "BASE IMPOSABLE",
+    ledger: "Taxes", salBrut: "Salaire Brut", deduceri: "Déduction Personnelle", bazaImp: "BASE IMPOSABLE",
     impozit: "Impôt sur le revenu", impTich: "Impôt tickets", contrA: "COTISATIONS EMPLOYEUR",
     totalC: "COÛT TOTAL ENTREPRISE", totalCD: "Montant total dépensé par l'employeur",
     netTich: "NET + TICKETS", netTichD: "Revenu mensuel effectif",
